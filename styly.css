@@ -1,0 +1,56 @@
+body {
+  background-image: linear-gradient(#615dad, #ffc8da);
+  background-size: 100vw 100vh;
+  text-align: center;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.ramecek {
+  padding: 50px 200px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.foto {
+  width: 300px;
+  display: block;
+  border-radius: 10px 10px 0 0;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Lobster', cursive;
+}
+
+.uvod {
+  background-color: #283e50;
+}
+
+.odkazPravidla,
+.odkazHrat {
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  color: #ffffff;
+}
+.pravidla {
+  height: 32px;
+}
+
+.odkazP ravidla {
+  background-color: #1fcca4;
+}
+
+.odkazHrat {
+  background-color: #0197f6;
+  border-top: 2px solid black;
+}
+
+.pravidla :hover {
+  background-color: #1cbb96;
+}
+
+.hrat :hover {
+  background-color: #0090e9;
+}
