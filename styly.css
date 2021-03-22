@@ -26,6 +26,9 @@ h1 {
 .uvod {
   background-color: #283e50;
 }
+.intro {
+  padding: 10px;
+}
 
 .odkazPravidla,
 .odkazHrat {
