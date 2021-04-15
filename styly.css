@@ -1,9 +1,11 @@
 body {
   background-image: linear-gradient(#615dad, #ffc8da);
-  background-size: cover;
   text-align: center;
   color: #ffffff;
   line-height: 1.6;
+  height: 100vw;
+  background-repeat: no-repeat;
+  margin: 0;
 }
 
 .ramecek {
@@ -24,6 +26,9 @@ h1 {
   font-family: 'Lobster', cursive;
   text-align: center;
   padding-top: 20px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  letter-spacing: 5px;
 }
 
 .uvod {
@@ -54,11 +59,17 @@ h1 {
   border-top: 2px solid black;
 }
 
-.pravidla :hover {
+.pravidla :hover,
+.odkazZpetUvod :hover,
+.pravidla :focus,
+.odkazZpetUvod :focus {
   background-color: #1cbb96;
 }
 
-.hrat :hover {
+.hrat :hover,
+.hrat :focus,
+.odZacatku :hover,
+.odZacatku :focus {
   background-color: #0090e9;
 }
 
@@ -105,7 +116,7 @@ h1 {
 
   .situace {
     font-style: italic;
-    width: 100%;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -113,4 +124,56 @@ h1 {
   .priklady {
     width: 41%;
   }
+}
+
+.strHra {
+  display: block;
+  max-width: 80vmin;
+  margin: 0 auto;
+}
+.hraciPole button {
+  width: 8vmin;
+  height: 8vmin;
+  padding: 0;
+}
+
+.hraciPole button:focus,
+.hraciPole button:hover {
+  background-color: blanchedalmond;
+}
+
+.hraciPole {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  opacity: 60%;
+}
+
+.uvodniRadek {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ikony {
+  text-align: left;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 25px;
+  align-items: flex-start;
+}
+.odkazy {
+  align-items: flex-end;
+}
+
+.domecek {
+  background-color: #1fcca4;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.sipka {
+  background-color: #0197f6;
+  border-radius: 3px;
+  padding: 10px;
 }
