@@ -182,11 +182,12 @@ h1 {
   background-image: url('obrazky_pravidla/circle.svg');
   background-repeat: no-repeat;
   background-position: center;
-  animation: createPicture 0.15s; 
+  animation: createPicture 0.15s;
 }
 
 .board__field--cross {
   background-image: url('obrazky_pravidla/cross.svg');
   background-repeat: no-repeat;
   background-position: center;
-  animation: createPicture 0.15s; 
+  animation: createPicture 0.15s;
+}
